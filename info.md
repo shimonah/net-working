@@ -1,15 +1,13 @@
-#for checking IP
-https://www.shodan.io/
+#### For checking IP
+- ``https://www.shodan.io/``
 
-#get dns by domain name
-whois example.com
-dig example.com
+#### Get dns by domain name
+- ``whois example.com``
+- ``dig example.com``
 
-#for getting records for subdomains
-https://crt.sh/
+#### For getting records for subdomains
+- ``https://crt.sh/``
+- ``curl -s "https://crt.sh/?q=%25.example.com&output=json" | jq '.[] | .name_value'`` (list of subdomain for scripts)
 
-#list of sub domains for script usage
-curl -s "https://crt.sh/?q=%25.example.com&output=json" | jq '.[] | .name_value'
-
-#DNS history
-https://viewdns.info/iphistory/?domain=example.pt
+#### DNS history
+- ``https://viewdns.info/iphistory/?domain=example.pt``
