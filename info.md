@@ -11,3 +11,6 @@
 
 #### DNS history
 - ``https://viewdns.info/iphistory/?domain=example.pt``
+
+#### Whatweb
+- ``whatweb -v farmacia.pt``
